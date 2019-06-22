@@ -372,3 +372,38 @@ padding-right: 1.1rem;
     }
 
 }
+
+/* Scroll up button */
+
+.to-top{
+	color:white;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position:relative;
+	border-color:white;
+	text-decoration:none;
+    transition:all .3s ease-out;
+    cursor: pointer;
+}
+.to-top:before{
+	content:'▲';
+	font-size:2.2rem;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em white;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.to-top:hover{
+	color:rgb(146, 146, 146);
+	border-color:rgb(172, 172, 172);
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
+}

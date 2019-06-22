@@ -74,3 +74,13 @@ $('.logo').on('click', function(e) {
   
       lastScrollTop = st;
   }
+
+//   SCROLL Button
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  document.getElementById("scroll").onclick = function() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
