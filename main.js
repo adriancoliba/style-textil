@@ -76,10 +76,6 @@ $('.logo').on('click', function(e) {
   }
 
 //   SCROLL Button
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
   document.getElementById("scroll").onclick = function() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
